@@ -1,7 +1,41 @@
 # Getting Started with Create React App
 
-##using command for create app
+## using command for create app
+
 npx create-react-app . --template typescript
+npm i axios react-router-dom @types/react-router-dom moment
+npm i redux redux-thunk react-redux antd @types/react-redux @types/redux-thunk
+
+## history commit with comments
+
+1 init - Установил CRA с шаблоном typescript
+2 begin build struct. install dependencies - Подготовил стартовую структуру (удалил лишнее), установил зависимости (axios - для асинхронных запросов к серверу. react-router-dom - для постраничной навигации в пришложении к ней типы. moment - ui библиотека antDisign использует внутри себя для работы с датами. redux, redux-thunk чтобы делать асинхронные экшены к ней типы, react-redux для связки реакта и редакса к ней типы)
+
+## My labels
+
+[https://ant.design/](https://ant.design/)
+[https://momentjs.com/](https://momentjs.com/)
+[https://github.com/utimur/react-profi](https://github.com/utimur/react-profi)
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
