@@ -5,11 +5,13 @@
 npx create-react-app . --template typescript
 npm i axios react-router-dom @types/react-router-dom moment
 npm i redux redux-thunk react-redux antd @types/react-redux @types/redux-thunk
+npm install react-router-dom@5
 
 ## history commit with comments
 
 1 init - Установил CRA с шаблоном typescript
 2 begin build struct. install dependencies - Подготовил стартовую структуру (удалил лишнее), установил зависимости (axios - для асинхронных запросов к серверу. react-router-dom - для постраничной навигации в пришложении к ней типы. moment - ui библиотека antDisign использует внутри себя для работы с датами. redux, redux-thunk чтобы делать асинхронные экшены к ней типы, react-redux для связки реакта и редакса к ней типы)
+3 navigation. new react-router-dom - Расширил структуру, добавил роуты, понизил версию реакт роутер дом c 6 до 5.3.0
 
 ## My labels
 
